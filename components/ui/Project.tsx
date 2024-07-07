@@ -1,4 +1,3 @@
-import { Key } from "react";
 import { FaLocationArrow } from "react-icons/fa";
 
 const Project = ({  
