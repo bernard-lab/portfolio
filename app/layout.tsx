@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   description: "Modern & Minimalist Portfolio",
   authors: [{name:'Bernard Acero', url:'https://github.com/bernard-lab'}],
   creator: 'Bernard Acero',
-  icons: '/portfolio.svg',
+  icons: './portfolio.svg',
 };
 
 export default function RootLayout({

@@ -41,7 +41,7 @@ const Hero = () => {
                 Hi, I&apos;m Bernard, a creative problem-solver. As I embark on my journey into Web Development, I&apos;m excited to blend my passion for design with coding skills.
                 </p>
                 
-                <img src="/myImg.png" alt="profile image" width="300" className='mt-5 md:mt-0 border rounded-full'                 
+                <img src="./myImg.png" alt="profile image" width="300" className='mt-5 md:mt-0 border rounded-full'                 
                 />                  
                 </div>
 
