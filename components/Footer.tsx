@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id='contact' className='w-full pt-20 pb-10'>
        <div className='w-full absolute left-0 bottom-0 min-h-96 h-[588px]'>
             <img 
-            src='/footer-grid.svg'
+            src='./footer-grid.svg'
             alt='grid'
             className='w-full h-full opacity-50'
             />
