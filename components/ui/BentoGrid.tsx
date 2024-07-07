@@ -77,7 +77,7 @@ export const BentoGridItem = ({
             <img 
             src={img}
             alt={img}
-            className={cn(imgClassName, 'object-cover, object-center')}
+            className={cn(imgClassName, 'object-cover sm:object-contain, object-center, opacity-80')}
             />
           )}
         </div>
@@ -101,7 +101,7 @@ export const BentoGridItem = ({
             <div className="absolute z-50 flex items-center justify-center text-white font-bold ">
             </div>
           </BackgroundGradientAnimation>
-        )}
+        )}        
 
         <div className={cn(
           titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'

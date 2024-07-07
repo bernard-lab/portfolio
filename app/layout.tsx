@@ -7,7 +7,7 @@ import { ThemeProvider } from "./provider"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Modern & Creative Portfolio",
+  title: "My Modern Portfolio",
   description: "Modern & Minimalist Portfolio",
   authors: [{name:'Bernard Acero', url:'https://github.com/bernard-lab'}],
   creator: 'Bernard Acero',

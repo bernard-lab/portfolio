@@ -1,9 +1,11 @@
+import  about from "../../public/about.svg";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
-  // { name: "Testimonials", link: "#testimonials" },
+
 ];
 
 export const gridItems = [
@@ -14,7 +16,7 @@ export const gridItems = [
     className: "lg:col-span-5 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "./b1.svg",
+    img: "./network.png",
     spareImg: "",
   },
   {
@@ -91,7 +93,7 @@ export const projects = [
     id: 3,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
-    img: "./p4.svg",
+    img: "./apple.png",
     iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
     link: "https://github.com/bernard-lab/apple-website.git",
   },
