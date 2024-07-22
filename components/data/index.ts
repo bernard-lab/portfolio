@@ -1,4 +1,4 @@
-import  about from "../../public/about.svg";
+// import  about from "../../public/about.svg";
 
 export const navItems = [
   { name: "About", link: "#about" },
@@ -75,19 +75,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Nike Website",
-    des: "Recreated Nike Website using ReactJS and Tailwind.",
-    img: "./nike.svg",
-    iconLists: ["./re.svg", "./tail.svg",],
-    link: "https://github.com/bernard-lab/Nike-Website.git",
+    title: "Digital Echoes",
+    des: "Digital Echoes is your space for sharing and exploring thoughts and reflections in the digital age.",
+    img: "./digital-echoes.jpg",
+    iconLists: ["./next.svg", "./re.svg", "./tail.svg", "mongo.svg", "./vercel.ico"],
+    link: "https://digital-echoes.vercel.app/",
   },
   {
     id: 2,
-    title: "Image Slider",
-    des: "Created a smooth image transition animation of wildlife animals combining CSS and JavaScript.",
-    img: "./img-slider.png",
-    iconLists: ["./html.svg", "./css.svg", "./js.svg"],
-    link: "https://github.com/bernard-lab/image-slider.git",
+    title: "Nike Website",
+    des: "Recreated e-commerce Nike Website landing page using ReactJS plus Vite and Tailwind.",
+    img: "./nike.svg",
+    iconLists: ["./re.svg", "./vite.svg", "./js.svg", "./tail.svg", "./vercel.ico"],
+    link: "https://nike-website-peach.vercel.app/",
   },
   {    
     id: 3,
@@ -96,16 +96,23 @@ export const projects = [
     img: "./apple.png",
     iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
     link: "https://github.com/bernard-lab/apple-website.git",
-  },
- 
+  }, 
   {
     id: 4,
-    title: "YouTube Website",
-    des: "Recreated the old YouTube Website, using HTML, CSS, and JavaScript.",
-    img: "./yt.png",
+    title: "Image Slider",
+    des: "Created a smooth image transition animation of wildlife animals combining CSS and JavaScript.",
+    img: "./img-slider.png",
     iconLists: ["./html.svg", "./css.svg", "./js.svg"],
-    link: "https://github.com/bernard-lab/yt-recreate.git",
+    link: "https://github.com/bernard-lab/image-slider.git",
   },
+  // {
+  //   id: 4,
+  //   title: "YouTube Website",
+  //   des: "Recreated the old YouTube Website, using HTML, CSS, and JavaScript.",
+  //   img: "./yt.png",
+  //   iconLists: ["./html.svg", "./css.svg", "./js.svg"],
+  //   link: "https://github.com/bernard-lab/yt-recreate.git",
+  // },
   
 ];
   

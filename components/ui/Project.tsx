@@ -35,7 +35,7 @@ const Project = ({
                 </p>
 
                 {/* Small Icons */}
-                <div className="flex items-center justify-between mt-7 mb-3 px-3">
+                <div className="flex w-full items-center justify-between mt-7 mb-3 px-3">
                   <div className="flex items-center">
                     {/* map icon lists */}
                     {iconLists.map((icon: string, index: number) => (
@@ -48,7 +48,7 @@ const Project = ({
                     {/* Check GitHub */}
                     <button className=" border rounded-3xl p-2.5 hover:animate-pulse ">
                     <a href={link} target="_blank" className="w-full flex justify-center items-center m-0">
-                      <p className="flex lg:text-xl md:text-xs text-sm text-purple ">Check GitHub</p>
+                      <p className="flex lg:text-xl md:text-xs text-sm text-purple ">Check Project</p>
                       <FaLocationArrow className="ms-3" color="#cbacf9"/>
                       </a>
                     </button>
