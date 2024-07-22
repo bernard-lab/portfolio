@@ -6,7 +6,7 @@ const RecentProjects = () => {
     <div className="mt-10 py-20" id="projects">
         <h1 className="heading">
           A small selection of  {' '}
-          <span className="text-purple">recent projects</span>
+          <span className="text-[#d9ed92]">recent projects</span>
         </h1>
 
         {/* Project Carts */}

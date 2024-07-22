@@ -7,7 +7,7 @@ const Experience = () => {
     <div id='experience' className='py-20'>
         <h1 className='heading pb-10'>
             My 
-            <span className='text-purple'> work experiences</span>
+            <span className='text-[#d9ed92]'> work experiences</span>
         </h1>
         <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
             {workExperience.map(({ id, title, desc, thumbnail, className}) => (
