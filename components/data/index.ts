@@ -111,32 +111,45 @@ export const workExperience = [
   {
     id: 1,
     title: "Chat Support Representative",
-    desc: "Ensures prompt and proper resolution of customer queries by providing answers, additional information, suggestions to provide a solution according to defined procedures.",
+    desc1: "Customer Assistance: Respond to customer inquiries in real-time via chat, providing accurate and helpful information to resolve their questions and issues.",
+    desc2: "Issue Resolution: Diagnose and troubleshoot customer problems, offering effective solutions or escalating to appropriate teams when necessary.",
     className: "md:col-span-2",
     thumbnail: "./exp1.svg",
+    company: "Immensity Group Philippines",
+    duration: 'June 2021 - October 2023',    
   },
   {
     id: 2,
     title: "Technical Support Representative",
-    desc: "Identifies, investigates, and resolves users’ problems with computer software and hardware, or escalating/engaging others in the organization to provide a solution according to defined procedures.",
+    desc1: "Issue Resolution: Diagnose and troubleshoot technical issues, including software, hardware, and network problems, providing clear and effective solutions to customers",
+    desc2: "Customer Assistance: Respond to technical inquiries from customers via phone, email, or live chat, offering guidance and support to resolve their technical problems",
     className: "md:col-span-2", 
     thumbnail: "./exp2.svg",
+    company: "Convergys WCC",
+    duration: 'July 2015 – January 2016',
   },
   {
     id: 3,
     title: "TECHNICAL OFFICER",
-    desc: "Responsible for repairing and maintaining computers and servers including hardware, software, network, and computer peripherals.",
+    desc1: "System Maintenance: Perform regular maintenance, updates, and upgrades on hardware and software systems to ensure optimal performance and security.",
+    desc2: "Technical Support: Provide on-site and remote technical support to users, troubleshooting and resolving hardware and software issues promptly.",
     className: "md:col-span-2",
     thumbnail: "./exp3.svg",
+    company: "Pulse Digital Network Corporation",
+    duration: 'July 2008 – February 2012',
   },
   {
     id: 4,
     title: "Software Developer Intern",
-    desc: "Developed user-facing features using Java NetBeans.",
+    desc1: "Code Development: Assist in writing, testing, and debugging code for software applications, ensuring adherence to coding standards and project requirements.",
+    desc2: "Collaboration: Work closely with team members to understand project goals, contribute to design discussions, and support the implementation of software features.",
     className: "md:col-span-2",
     thumbnail: "./exp4.svg",
+    company: "PLDT/SMART",
+    duration: 'November 2018 - March 2019 ',
   },
 ];
+
 
 export const socialMedia = [
   {
