@@ -84,7 +84,7 @@ export const projects = [
   {
     id: 2,
     title: "Nike Website",
-    des: "Recreated e-commerce Nike Website landing page using ReactJS plus Vite and Tailwind.",
+    des: "Recreated e-commerce Nike Website landing page using ReactJS plus Vite and Tailwind CSS.",
     img: "./nike.svg",
     iconLists: ["./re.svg", "./vite.svg", "./js.svg", "./tail.svg", "./vercel.ico"],
     link: "https://nike-website-peach.vercel.app/",
@@ -105,15 +105,6 @@ export const projects = [
     iconLists: ["./html.svg", "./css.svg", "./js.svg"],
     link: "https://github.com/bernard-lab/image-slider.git",
   },
-  // {
-  //   id: 4,
-  //   title: "YouTube Website",
-  //   des: "Recreated the old YouTube Website, using HTML, CSS, and JavaScript.",
-  //   img: "./yt.png",
-  //   iconLists: ["./html.svg", "./css.svg", "./js.svg"],
-  //   link: "https://github.com/bernard-lab/yt-recreate.git",
-  // },
-  
 ];
   
 export const workExperience = [
@@ -128,14 +119,14 @@ export const workExperience = [
     id: 2,
     title: "Technical Support Representative",
     desc: "Identifies, investigates, and resolves users’ problems with computer software and hardware, or escalating/engaging others in the organization to provide a solution according to defined procedures.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "TECHNICAL OFFICER",
     desc: "Responsible for repairing and maintaining computers and servers including hardware, software, network, and computer peripherals.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "./exp3.svg",
   },
   {
