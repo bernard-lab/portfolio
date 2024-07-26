@@ -83,14 +83,22 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Weateher Wise",
+    des: "Real-time weather updates and 5-day forecasts at your fingertips. Stay informed with accurate data on temperature, humidity, and more.. ",
+    img: "./weather.jpg",
+    iconLists: ["./re.svg", "./ts.svg", "./tail.svg", "./vercel.ico"],
+    link: "https://weather-watch-one.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Nike Website",
     des: "Recreated e-commerce Nike Website landing page using ReactJS plus Vite and Tailwind CSS.",
     img: "./nike.svg",
     iconLists: ["./re.svg", "./vite.svg", "./js.svg", "./tail.svg", "./vercel.ico"],
     link: "https://nike-website-peach.vercel.app/",
-  },
+  }, 
   {    
-    id: 3,
+    id: 4,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects.",
     img: "./apple.png",
@@ -98,12 +106,12 @@ export const projects = [
     link: "https://github.com/bernard-lab/apple-website.git",
   }, 
   {
-    id: 4,
+    id: 5,
     title: "Image Slider",
     des: "Created a smooth image transition animation of wildlife animals combining CSS and JavaScript.",
     img: "./img-slider.png",
     iconLists: ["./html.svg", "./css.svg", "./js.svg"],
-    link: "https://github.com/bernard-lab/image-slider.git",
+    link: "https://image-slider-bice.vercel.app/",
   },
 ];
   
